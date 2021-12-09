@@ -1,0 +1,119 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color:aqua;
+    text-decoration-color:dodgerblue
+}
+
+body {
+    background-color:darksalmon;
+}
+
+tr:hover {background-color: yellow;} 
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: aqua;
+}
+
+header ::after {
+    content: ''; 
+    display: table;
+    clear: both; 
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float:right
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+nav ul > li > a {
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.bluetext {
+    color:blue
+} 
+
+.projects h1{
+    color:blueviolet
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  th {
+    height: 70px;
+    border: 1px solid black;
+  }
+
+#Home {
+    height: 800px;
+    background-image: url("../images/tom-barrett-EqakIK25gXI-unsplash.jpg");
+    background-size: contain;
+}
+
+#About {
+    height: 800px;
+    background-image: url("../images/electron-photography-2bHCRXOfUmU-unsplash.jpg");
+    background-size: contain;
+}
+
+#Projects { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 800px;
+    background-image: url("../images/fahim-muntashir-aCeVa_v7OYg-unsplash.jpg");
+    background-size: contain;
+}
+
+#Knowledge {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 800px;
+    background-image: url("../images/carson-masterson-uP-ci5MUpEQ-unsplash.jpg");
+    background-size: contain;
+}
+
+#Contact {
+    height: 800px;
+    background-image: url("../images/joshua-brown-P8mqhO3QeBs-unsplash_2.jpg");
+    background-size: contain;
+}
